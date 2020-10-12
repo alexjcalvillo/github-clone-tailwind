@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import BottomNav from './components/BottomNav/BottomNav';
 import TopNav from './components/TopNav/TopNav';
 
 function App() {
+  const TotalRepos = 60;
   return (
     <div>
       <header>
         <TopNav />
         {/* TODO: Start on 2nd Nav zone */}
-        <nav></nav>
+        <BottomNav TotalRepos={TotalRepos} />
       </header>
       <main>
         <div></div>
