@@ -142,7 +142,7 @@ const SideMenu = () => {
               Organizations
             </h2>
             <img
-              className="w-8 h-8 rounded-md pt-3"
+              className="w-8 h-8 rounded-md mt-2"
               src="https://avatars0.githubusercontent.com/u/9360728?s=60&v=4"
               alt="@PrimeAcademy"
             />
