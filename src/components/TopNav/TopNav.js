@@ -73,7 +73,7 @@ const TopNav = (props) => {
           <div className="flex items-center fill-current text-white ml-1 mr-8 cursor-pointer hover:text-gray-400">
             <img
               className="object-cover rounded-full w-6 mr-px"
-              src="alex2_bw.png"
+              src="profile.png"
               alt="profile"
             />
             <svg
